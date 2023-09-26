@@ -84,10 +84,14 @@ line-height: normal;
 text-decoration-line: underline;
 }
 
+/*  */
+/* .tcontainer {
+
+} */
+
 
 @media only screen and (max-width: 375px) {
-   /* bounce pass? alley oop.. .. mobile for you! = I said that in my Roderick Davis voice
-   Gucciiiiii!
+   /* 
    Haven't made changes to the @media.. part..
    */
    * {
