@@ -1,10 +1,9 @@
 * {
-    margin: 0;
+    margin: 5;
     padding: 0;
 }
 
 .tlf {
-
     color: #333;
     font-family: Inconsolata;
     font-size: 24px;
@@ -13,8 +12,24 @@
     line-height: normal;
     letter-spacing: -1.92px;
     text-transform: uppercase;
-
+    padding: 24px; 
+    margin: 40 200;
+    width: 133px;
+    height: 25px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between ;
+    align-items: flex-end;
+}
+
+ .tcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+} 
 
 .badnews {
     width: 586px;
@@ -25,6 +40,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -2.24px;
+    margin: 20px 150px 0px;
 }
 
 .desc {
@@ -36,21 +52,30 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.84px;
+    margin: 20px 150px;
 }
 
-.bth {
+.btn {
     box-sizing: border-box;
     width: 216px;
     height: 68px;
     flex-shrink: 0;
     background: var(--Gray-1, #333);
-
+    margin:64px 150px;
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
 }
 
-img {
+img{
     box-sizing: border-box;
-    width: 1440px;
-    height: 1080px;
+    width: 539px;
+    height: 447px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
@@ -62,9 +87,11 @@ img {
     line-height: normal;
     letter-spacing: -0.49px;
     text-transform: uppercase;
+    padding: 1px;
+    margin: 0px 50px 100px 50px; 
 }
 
-footer {
+footer{
     color: #BDBDBD;
     text-align: center;
     font-family: Montserrat;
@@ -72,112 +99,16 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 24px;
 }
 
-.names {
+a:visited { text-decoration: none; }
+
+.name{
     color: #BDBDBD;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-/*  */
-/* .tcontainer {
-
-} */
-
-
-@media only screen and (max-width: 375px) {
-   /* 
-   Haven't made changes to the @media.. part..
-   */
-   * {
-    margin: 0;
-    padding: 0;
-}
-
-.tlf {
-
-    color: #333;
-    font-family: Inconsolata;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -1.92px;
-    text-transform: uppercase;
-
-}
-
-.badnews {
-    width: 586px;
-    color: var(--Gray-1, #333);
-    font-family: Space Mono;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -2.24px;
-}
-
-.desc {
-    width: 381px;
-    color: var(--Gray-2, #4F4F4F);
-    font-family: Space Mono;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.84px;
-}
-
-.bth {
-    box-sizing: border-box;
-    width: 216px;
-    height: 68px;
-    flex-shrink: 0;
-    background: var(--Gray-1, #333);
-
-}
-
-img {
-    box-sizing: border-box;
-    width: 1440px;
-    height: 1080px;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
-    color: #FFF;
-    font-family: Space Mono;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.49px;
-    text-transform: uppercase;
-}
-
-footer {
-    color: #BDBDBD;
-    text-align: center;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
 }
-
-.names {
-    color: #BDBDBD;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-  }
